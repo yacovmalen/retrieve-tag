@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "Yacov Malen",
+    "email": ""
+  },
+  "name": "retrieve-tag",
+  "description": "Library to extract a regEx from a git branch name or message and use the string to get components from a Jira ticket.",
+  "keywords": [
+    "git",
+    "jira",
+    "tag",
+    "branch",
+    "message",
+    "components",
+    "jira components"
+  ],
+  "license": "MIT",
+  "version": "0.1.0",
+  "repository": "https://github.com/yacovmalen/retrieve-tag.git",
+  "main": "./index",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "proxyquire": "^1.7.3",
+    "sinon": "^1.17.2"
+  },
+  "dependencies": {
+    "jira": "^0.9.2"
+  },
+  "readme": "ERROR: No README data found!"
+}
