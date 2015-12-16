@@ -1,7 +1,7 @@
 # Retrieve Tag for Git #
 
-A node js module to extract a known string or tag from a Git branch name or Git commit message. If the tag is a Jira Ticket,
-it can be used to get the components of the ticket from a Jira project.
+A node js module to extract a known string or tag from a Git branch name or Git commit message. If the tag is a Jira
+issue number, it can be used to get the components of the ticket from a Jira project.
 
 JIRA REST API documentation can be found [here](http://docs.atlassian.com/jira/REST/latest/)
 
@@ -37,10 +37,10 @@ console.log(tag); //working-123
 ## Options ##
 
 retrieveTag options:
-* Location: 'Branch' or 'Message'
-* Regex: Search string
+* `Location<string>`: Location to extract the tag from ('Branch' or 'Message')
+* `Regex<regEx>`: Search string
 
-JiraApi options:
+getJiraComponents and JiraApi options:
 *  `protocol<string>`: Typically 'http:' or 'https:'
 *  `host<string>`: The hostname for your jira server
 *  `port<int>`: The port your jira server is listening on (probably `80` or `443`)
