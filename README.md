@@ -6,6 +6,7 @@ issue number, it can be used to get the components of the ticket from a Jira pro
 JIRA REST API documentation can be found [here](http://docs.atlassian.com/jira/REST/latest/)
 
 ## Installation ##
+npm install retrieve-tag
 
 ## Use Case##
 The use case for this module is the ability to grab a tag that a developer either puts in the branch name or the last
